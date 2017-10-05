@@ -252,6 +252,9 @@ PRODUCT_COPY_FILES += \
     vendor/ixion/P350/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/ixion/P350/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/ixion/P350/proprietary/lib/libssladp.so:system/lib/libssladp.so \
+    vendor/ixion/P350/proprietary/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
+    vendor/ixion/P350/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
+    vendor/ixion/P350/proprietary/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
     vendor/ixion/P350/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/ixion/P350/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/ixion/P350/proprietary/lib/libterservice.so:system/lib/libterservice.so \
