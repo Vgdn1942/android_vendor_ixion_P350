@@ -196,6 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/ixion/P350/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/ixion/P350/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/ixion/P350/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
+    vendor/ixion/P350/proprietary/lib/liblog.so:system/lib/liblog.so \
     vendor/ixion/P350/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/ixion/P350/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/ixion/P350/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
