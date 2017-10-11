@@ -201,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/ixion/P350/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/ixion/P350/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
     vendor/ixion/P350/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
-    vendor/ixion/P350/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
     vendor/ixion/P350/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/ixion/P350/proprietary/lib/libmmsdkservice.feature.so:system/lib/libmmsdkservice.feature.so \
     vendor/ixion/P350/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
