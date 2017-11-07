@@ -8,4 +8,4 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ixion/P350/propriet
 
 # PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ixion/P350/proprietary/vendor,system/vendor)
 
-# PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ixion/P350/proprietary/xbin,system/xbin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ixion/P350/proprietary/xbin,system/xbin)
