@@ -1,7 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 
-#ifneq ($(filter P350, $(TARGET_DEVICE)),)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiocustparam
 LOCAL_SRC_FILES := proprietary/lib/libaudiocustparam.so
@@ -10,4 +8,19 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-#endif
+include $(CLEAR_VARS)
+LOCAL_MODULE := libpq_cust
+LOCAL_SRC_FILES := proprietary/lib/libpq_cust.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdpframework
+LOCAL_SRC_FILES := proprietary/lib/libdpframework.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
